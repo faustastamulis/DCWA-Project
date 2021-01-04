@@ -1,0 +1,26 @@
+<h1>Heads Of State</h1>
+
+<button>Add Head Of State</button>
+
+<table>
+
+    <tr>
+        <th>Country Code</th>
+        <th>Head of State</th>
+
+    </tr>
+    <% country.forEach((country)=>
+        { %>
+        <tr>
+            <td>
+                <%= headsOfState._id %>
+            </td>
+            <td>
+                <%= headsOfState.headOfState %>
+            </td>
+
+        </tr>
+        <% }) %>
+</table>
+
+<a href="https://localhost:3004">Home</a>
